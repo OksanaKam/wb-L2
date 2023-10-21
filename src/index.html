@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WB L2</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="meme-header">Генератор мемов</h1>
+        <div class="meme-section">
+            <div class="meme-generator">
+                <canvas class="meme-generator__canvas" id="meme"></canvas>
+            </div>
+            <div class="meme-section__inputs">
+                <form class="meme-form">
+                    <input class="meme-form__input" type="file" id="image-file">
+                    <label class="meme-form__label" for="image-file">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="rW1DZNdb5THuH-xexbQ-9" style="vertical-align:middle" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z"></path></svg>
+                        Выберите файл
+                    </label>
+                </form>
+                <div class="meme-text">
+                    <input class="meme-text__top" type="text" id="top-text" placeholder="Введите текст">
+                    <input class="meme-text__bottom" type="text" id="bottom-text" placeholder="Введите текст">
+                    <button class="meme-text__download" type="button" id="download">Скачать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
